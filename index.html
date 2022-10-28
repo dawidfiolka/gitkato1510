@@ -6,58 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WSB Frontend miniprojekt_1</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div id="container">
       <header>
         <section class="brand">
           <a href="https://www.wsb.pl">
-            <img src="https://www.unsplash.it/150/60?image=909" alt="LOGO" />
+            <img src="./img/logo.jpg" alt="LOGO" />
           </a>
         </section>
         <nav>
           <!-- ul>li*4>a-!> -->
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="https://www.wsb.pl/chorzow">WSB</a></li>
+            <button class="button">Home</button>
+            <button class="button" a href="zadania.html">Zadania</button></a></button>
+
+            <li><a href="https://www.wsb.pl/chorzow">WSB Chorzów</a></li>
           </ul>
         </nav>
       </header>
       <section class="slider">
-        <img src="https://unsplash.it/1000/300?image=945" alt="SLIDER" />
+        <img src="./img/IzendaWebLogos.png" alt="SLIDER" align />
       </section>
       <main>
         <article>
-            <h1>Lorem ipsum dolor sit.</h1>
-            <img src="https://unsplash.it/700/300?image=870" alt="Obrazek dla main"/>
+            <h1>Co składa się na frontend?</h1>
+            <img src="./img/300.jpg" alt="Obrazek dla main"/>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, provident mollitia voluptates reprehenderit adipisci eligendi dignissimos deleniti ullam ducimus eius rerum praesentium asperiores tenetur error ex, laborum cupiditate autem numquam.
-                Voluptates modi cupiditate, explicabo laboriosam esse totam. Nihil quas, vitae odio iste architecto assumenda perspiciatis illum libero nemo quis officia, quae et sunt quaerat dignissimos magnam deleniti repellat error maiores.
-                Corporis, natus distinctio quas animi fugit veritatis accusamus iste ipsa exercitationem dolore doloremque porro sit ipsam beatae. Ea possimus, tempora at quod esse, enim unde omnis magnam voluptatem ab iure!
+              Specjalista IT w zakresie frontendu musi znać trzy najważniejsze języki kodowania, czyli HTML, CSS i JavaScript. Każdy z nich spełnia inne funkcje w programowaniu stron i aplikacji:
+
+              <ul>
+                <li><strong>HTML</strong> – opisuje cel i znaczenie wszystkich bloków strony,</li>
+              <li><strong>CSS</strong> – język arkuszy stylów (ang. style sheet language), który odpowiada za wygląd strony (kształty, położenie i kolory użytych elementów),</li>
+              <li><strong>JavaScript</strong> – idealny do programowania funkcjonalności, ścieżki zachowań użytkowników i sprawnego działania strony.</li>
+              <li><strong>Angular</strong> - kompleksowy framework do projektowania oraz tworzenia wydajnych aplikacji typu SPA (Single Page Application) .</li>
+            </ul>
+              <strong>W dużym uproszczeniu, HTML odpowiedzialny jest za zawartość strony WWW, CSS za to, jak wygląda, a JavaScript za to, jak działa.</strong>
+              <p>Natomiast <strong>Angular</strong> to kompleksowy framework do projektowania oraz tworzenia wydajnych aplikacji typu SPA (Single Page Application) . Napisany w języku TypeScript i wspierany oraz rozwijany przez Google. Dostarcza programiście zestaw gotowych do wykorzystania narzędzi i rozwiązań, które wystarczy uzupełnić własnym kodem i zmodyfikować w razie potrzeby:)</p>
             </p>
+            
         </article>
         <aside>
             <section class="widget">
-                <h3> O autorze</h3>
-                <img src="https://unsplash.it/100/100?image=1062" />
+              <p class = "padding"><img src="./img/ja.png" width="150px" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  mollitia et animi? Quae, dignissimos? Exercitationem dolores error
-                  dolor earum, nobis molestias. Veniam nulla assumenda reiciendis
-                  ipsam ratione, repellat amet tempore.Asperiores ut facere
-                  repellendus voluptatem autem voluptate in, sapiente, placeat,
-                  inventore sit beatae magni nam temporibus? Repellendus veritatis,
-                  possimus quod sint accusantium placeat ipsa fugit magni architecto
-                  tenetur, mollitia velit?
+                  <h3>Kim jestem?</h3><p>Pomimo 52 lat jestem osobą aktywną i nauka nie stanowi dla mnie problemu. Aktualnie jestem w trakcie studiów podyplomowych na kierunku Front-end + Angular. Jestem otwarty na nowe wyzwania. Moje doświadczenie zawodowe zawsze związane było z tematem grafiki, internetu, druku, kontaktu z Klientami. W związku z koniecznością zakończenie działalności gospodarczej w branży reklamowej, bazując na wieloletnim doświadczeniu oraz zainteresowaniach, poszukuję pracy na stanowisku grafika komputerowego, administratora stron www, Social Media Managera. W tych tematach czuję się najlepiej ale przebranżowienie czy nauka w innych obszarach jest jak najbardziej w zakresie moich możliwości.</p>
                 </p>
             </section>
             <section class="links">
-                <h4>LINKS</h4>
+                <h4 align = "right">Follow me:</h4>
+                <img src="./img/sm.png" alt="">
              <ul>
-                <li><a href="https://wsb.pl/chprzów">WSB</a>
-                    </li><li><a href="X">LINK1</a><li><a href="#">LINK2</a></li>
+              <li><a href="#" class="fa fa-facebook"></a> Facebook</li>
+              <li><a href="#" class="fa fa-instagram"></a> Instagram</li>
+              <li><a href="#" class="fa fa-linkedin"></a> Linkedin</li>
              </ul>
             </section>
            
@@ -65,7 +68,7 @@
         
       </main>
       <section id="footer">
-        <p> Copyright &copy; By ME</p>
+        <p align = "center">Copyright &copy; By ME - <a href="https://wsb.pl/chorzow" target="_blank" >WSB Chorzów</a> - 2022/2023</p>
     </section>
     </div>
   </body>
